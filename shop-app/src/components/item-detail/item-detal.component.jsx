@@ -4,18 +4,9 @@ import MenuItem from '../menu-item/menu-item.component';
 
 import './item-detail.style.css';
 
-class ItemDetail extends React.Component {
-    constructor() {
-        super();
-    }
-
-    render() {
-        return (
-            <div className="item-menu">
-                item detail
-            </div>
-        )
-    }
+const ItemDetail = (props) => {
+    console.log(props.match.params.id)
 }
+
 
 export default ItemDetail;
