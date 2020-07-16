@@ -10,7 +10,7 @@ const MenuItem = ({id, title, imageUrl, size}) => (
         
         <div className="content">
             <h1 className="title">{title.toUpperCase()}</h1>
-            <Link to={'/items/' + id}>
+            <Link key={id} to={'/items/' + `${id}`}>
             <span className="subtitle">SHOP NOW</span>
             </Link>
         </div>

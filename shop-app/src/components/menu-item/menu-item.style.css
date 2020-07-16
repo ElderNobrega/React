@@ -10,7 +10,7 @@
     background-position: center;
     background-size: cover;
 }
-.menu-item .large {
+.menu-item.large {
     height: 380px;
 }
 

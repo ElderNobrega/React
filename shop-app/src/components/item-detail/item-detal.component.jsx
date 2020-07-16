@@ -4,8 +4,9 @@ import MenuItem from '../menu-item/menu-item.component';
 
 import './item-detail.style.css';
 
-const ItemDetail = (props) => {
-    console.log(props.match.params.id)
+function ItemDetail(props) {
+    console.log(props.match.params.di)
+    return <div>Detail screen</div>
 }
 
 
